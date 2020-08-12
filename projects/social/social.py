@@ -96,7 +96,6 @@ class SocialGraph:
             current_user = path[-1]
             
             if current_user not in visited:
-                # TODO: fix mark as visited
                 visited[current_user] = path
 
                 friends = self.friendships[current_user]
